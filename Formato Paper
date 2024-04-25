@@ -1,0 +1,76 @@
+\documentclass{article}
+
+% Paquetes necesarios
+\usepackage[utf8]{inputenc} % Codificación de caracteres
+\usepackage[T1]{fontenc} % Codificación de fuente
+\usepackage[spanish]{babel} % Idioma español
+\usepackage{amsmath} 
+\usepackage{amsfonts} 
+\usepackage{lipsum} 
+\usepackage{graphicx} 
+\usepackage{float} 
+\usepackage[left=2.00cm,right=2.00cm,top=2.00cm,bottom=2.00cm]{geometry} 
+
+% Título, autores y fecha
+\author{Piña César \and Autor Dos}
+\title{Título del Paper}
+
+
+
+\begin{document}
+
+\begin{center}
+{\large\textbf{Caracterización epidemiológica de personas que autoreportan amputación y su asociación con discapacidad desde una perspectiva poblacional. Análisis de la encuesta de discapacidad y dependencia 2022.}\\\\
+\vspace{2mm}
+{\large Piña César $^{1,2,3}$,Autor dos$^{1,2}$ }\\
+\vspace{5mm}
+$^1$\textit{ Kinesiólogo}\\ %para ponerla en cursiva.
+$^2$ Servicio de medicina física y rehabilitación\\
+$^3$ Magíster en Epidemiología   
+\end{center}
+\begin{center}
+\rule{150mm}{0.5mm}
+\begin{abstract}
+        Aquí va el resumen del paper. Hola Introducción: Materiales y métodos: Resultados: Conclusiones:\\
+        \textbf{Palabras clave:} Palabra 1, palabra 2, palabra 3
+        
+\end{abstract}
+\begin{center}
+\rule{150mm}{0.5mm}
+\end{center}
+\vspace{5mm}
+    
+
+
+\section{Introducción}
+Aquí puedes escribir la introducción de tu paper. Esta sección suele contener una descripción del problema, los objetivos del estudio y una breve visión general de lo que se discutirá en el documento.
+
+\section{Materiales y Métodos}
+En esta sección, describirías los materiales utilizados en tu estudio y los métodos que empleaste para llevar a cabo tu investigación.
+
+\section{Resultados}
+Aquí presentas los resultados de tu estudio. Puedes usar tablas, gráficos u otros elementos para mostrar tus datos.
+
+\section{Discusión}
+En esta sección, analizas e interpretas los resultados obtenidos en la sección anterior. También puedes comparar tus resultados con estudios previos y discutir sus implicaciones.
+
+\section{Conclusión}
+Aquí resumirías las principales conclusiones de tu estudio. Es importante destacar los hallazgos más relevantes y su importancia.
+
+
+% Referencias   %% falta corregir esto:
+\begin{thebibliography}{9}
+    \bibitem{ejemplo1}
+    Apellido, Nombre.
+    \emph{Título del artículo}.
+    Revista,
+    Año.
+
+    \bibitem{ejemplo2}
+    Apellido, Nombre.
+    \emph{Título del libro}.
+    Editorial,
+    Año.
+\end{thebibliography}
+
+\end{document}
